@@ -4,7 +4,7 @@ jQuery(document).ready(function($) {
 	});
 	('.form').validate({
 		rules  {
-			username :{
+			username :
 				required: true,
 				email : true
 			},
