@@ -1,10 +1,12 @@
 jQuery(document).ready(function($) {
-	$('submit').click(function(event) {
+	//# added
+	$('#submit').click(function(event) {
 		console.log("Submit button was clicked");
 	});
-	('#form').validate({
-		rules: {
-			username :
+	//$ and # added
+	$('#form').validate({
+		rules :{
+			username :{ //Curly bracket
 				required: true,
 				email : true
 			},
